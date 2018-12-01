@@ -1,0 +1,22 @@
+{
+
+  "manifest_version": 2,
+  "name": "FireBot",
+  "version": "1.0",
+  "description": "A chatbot to simulate conversation with human users, especially over the internet.",
+  "icons": {
+    "48": "chatbot-icon.png"
+  },
+  "browser_action": {
+    "default_icon": "chatbot-icon.png",
+    "default_popup":"index.html"
+    
+  },
+  "permissions": [
+    "notifications",
+    "alarms"
+  ],
+  "background": {
+    "scripts": ["js/index.js"]
+  }
+}
